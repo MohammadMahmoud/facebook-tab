@@ -1,0 +1,80 @@
+/*Framework*/
+
+@font-face {
+    font-family: main-font;
+    src: url('../fonts/Geomanist-Light.otf');
+}
+
+body {
+    font-family: main-font, sans-serif !important;
+    background-image: url(../img/background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+input {
+    padding: 5px !important;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+    color: #FFF !important;
+    font-size: 20px;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    color: #FFF !important;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: #FFF !important;
+}
+
+:-moz-placeholder { /* Firefox 4 - 18 */
+    color: #FFF !important;
+}
+
+.red {
+    color: white !important;
+    background-color: #ff3a4b;
+    padding: 10px;
+}
+
+.green {
+    color: white;
+    background-color: #a5ce44;
+}
+
+.pink {
+    color: white;
+    background-color: #f175af;
+}
+
+.sky {
+    color: white;
+    background-color: #23c5fc !important;
+}
+
+.orange {
+    color: white;
+    background-color: #fba13d !important;
+}
+
+.inline {
+    display: inline !important;
+}
+
+#result p {
+    background-color: #23c5fc !important;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+/*Framework*/
+
+/*Form*/
+.content {
+    padding-top: 50px;
+}
+
+/*Form*/

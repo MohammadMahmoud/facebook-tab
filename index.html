@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pillars Application</title>
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="stylesheets/style.css">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+    <!--Fontawesome cdn-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Animate css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="content">
+        <div class="col l12">
+            <h1 class="center-align">Registration Application</h1>
+            <form action="post.php" method="post" id="post">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input class="red" placeholder="Parent Name" type="text" name="name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input class="green" placeholder="Kid Name" type="text" name="kidname" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input class="pink" placeholder="Kid Age" type="text" name="kidage" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input class="sky" placeholder="Phone Number" type="text" name="phone" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input class="orange" placeholder="Email" type="email" name="email" required>
+                    </div>
+                </div>
+                <div class="right-align" id="big-button">
+                    <a>
+                        <button class="btn waves-effect waves-light" type="submit" id="submit">Submit</button>
+                    </a>
+                </div>
+            </form>
+            <div class="right-align">
+                <img src="img/logo.png" class="img-responsive" alt="logo">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <h4 class="center-align">Result</h4>
+        <p class="center-align"></p>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat"></a>
+    </div>
+</div>
+
+
+<!--jQuery-->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+<!--Javasctipt-->
+<script src="js/custom.js"></script>
+
+
+</body>
+</html>
